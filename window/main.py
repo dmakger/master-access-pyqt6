@@ -1,5 +1,5 @@
 from PyQt6.QtWidgets import QMainWindow, QPushButton, QLabel, QLineEdit, QVBoxLayout, QWidget, QListWidget, QHBoxLayout, \
-    QGridLayout, QStackedLayout, QComboBox, QSpinBox, QDoubleSpinBox
+    QStackedLayout, QComboBox, QSpinBox, QDoubleSpinBox
 
 from database.database_handler import DataBaseHandler
 
@@ -260,4 +260,3 @@ class MainWindow(QMainWindow):
     @staticmethod
     def get_names_products(products: list):
         return [x[1] for x in products]
-
